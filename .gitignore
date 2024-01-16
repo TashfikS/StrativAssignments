@@ -1,0 +1,67 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+env/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+
+# Secret key
+secret_key.txt
+
+# Media files
+media/
+
+# Static files
+static/
+
+# Development and deployment files
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.env
+*.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+
+# Ignore generated documentation
+/_build/
+
+# Ignore compiled files
+*.pyc
+
+# Ignore .pyc files in the __pycache__ directory
+__pycache__/
+
+# Ignore macOS metadata
+.DS_Store
+
+# Ignore temporary files
+*.swp
+
+# Ignore user-specific files
+*.local
+*.log
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+
+.vs 
+
+/obj
